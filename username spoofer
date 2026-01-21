@@ -1,5 +1,5 @@
 xpcall(function()
-local scriptCode='loadstring(game:HttpGet(""))()'
+local scriptCode='loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicht-Reden/username-spoofer/refs/heads/main/username%20spoofer"))()'
 queueonteleport(scriptCode)
 local G,P,LP=game,game:GetService("Players"),game:GetService("Players").LocalPlayer
 local fake="NoTalk"
