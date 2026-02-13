@@ -2,7 +2,7 @@ xpcall(function()
 local scriptCode='loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicht-Reden/username-spoofer/refs/heads/main/User%20spoof%20final"))()'
 queueonteleport(scriptCode)
 local G,P,LP=game,game:GetService("Players"),game:GetService("Players").LocalPlayer
-local fake=" "
+local fake="Roblox"
 local vid=LP.UserId
 local vn=LP.Name
 local dn=LP.DisplayName
